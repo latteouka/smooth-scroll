@@ -3,7 +3,7 @@ export default function Github() {
     <div className="github-wrapper">
       <a
         className="github"
-        href="https://github.com/latteouka/r3f-simple-editor"
+        href="https://github.com/latteouka/smooth-scroll"
         target="_blank"
         rel="noopener noreferrer"
       >
