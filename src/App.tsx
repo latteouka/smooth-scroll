@@ -34,6 +34,7 @@ function App() {
 
     // variable for skew and scale
     const difference = skewConfigs.current - skewConfigs.rounded;
+    // calculate scrolling speed base on delta
     const acceleration = difference / size.height;
     const velocity = acceleration;
     const skew = velocity * 5;
